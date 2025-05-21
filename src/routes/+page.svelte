@@ -7,16 +7,56 @@
 	import CallToAction from "$lib/components/layout/CallToAction.svelte";
 	import AboutTeaser from "$lib/components/layout/AboutTeaser.svelte";
 	import LogoScroller from "$lib/components/layout/LogoScroller.svelte";
-	import Hero from "$lib/components/layout/hero-sections/Hero.svelte";
+	import CustomerCardHero from "$lib/components/layout/hero-sections/CustomerCardHero.svelte";
 </script>
 
-<Hero
-	title="Elevate your business with thoughtful design"
-	subtitle="Solutions that enhance user experience, and improve visual communication."
-	imageSrc="/sample.png"
-	generating
+<CustomerCardHero
+  centered={true}
+  title="Effortless dispatching. Bigger jobs. Happier techs."
+  subtitle="Probook helps home service companies grow revenue, cut drive time, and make dispatching seamless—with confidence every shift."
+  customers={[
+    {
+      name: "Ryan Freeman",
+      position: "Dispatch manager",
+      imageSrc: "/generated/image-a-professional-male-dispatch-manager-in-.webp",
+      quote: "I used to need constant gut checks. Now I can run a full board knowing every tech is matched to the job that fits them best."
+    },
+    {
+      name: "Andrea Williams",
+      position: "Lead dispatcher",
+      imageSrc: "/generated/image-a-professional-female-lead-dispatcher-wo.webp",
+      quote: "Probook took the pressure out of dispatching. I can breathe, stay ahead, and make better decisions in less time."
+    },
+    {
+      name: "Mike Sullivan",
+      position: "Lead dispatcher",
+      imageSrc: "/generated/image-a-professional-male-lead-dispatcher-enga.webp",
+      quote: "I finally trust the board. Dispatching used to be reactive and chaotic—Probook makes it click."
+    },
+    {
+      name: "Krystin Hines",
+      position: "Dispatcher",
+      imageSrc: "/generated/image-a-professional-female-dispatcher-smiling.webp",
+      quote: "I’m just faster. I don’t second guess my calls anymore. I can see what makes the most sense right away."
+    },
+    {
+      name: "Chris Holleran",
+      position: "General manager",
+      imageSrc: "/generated/image-a-male-general-manager-in-a-service-offi.webp",
+      quote: "We’ve seen huge improvements in efficiency and consistency. Probook transformed the way our team works."
+    }
+  ]}
+  callsToAction={[{ href: "/demo", label: "See how it works" }]}
 />
-<LogoScroller label="" generating />
+<LogoScroller
+	label="Trusted by home service leaders"
+	logoUrls={[
+		'https://logo.clearbit.com/ars.com',
+		'https://logo.clearbit.com/milani.ca',
+		'https://logo.clearbit.com/rotorooter.com',
+		'https://logo.clearbit.com/onehourair.com'
+	]}
+/>
 
 <Summary
 	generating
