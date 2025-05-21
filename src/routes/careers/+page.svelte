@@ -121,34 +121,34 @@
 	];
 
 	const employeeTestimonials = [
-		{
-			name: "Michael Chen",
-			position: "Senior Developer",
-			company: "Engineering Team",
-			quote:
-				"Working here has given me the opportunity to tackle challenging problems while maintaining a healthy work-life balance. The team culture is supportive and collaborative.",
-			image:
-				"https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-		},
-		{
-			name: "Priya Sharma",
-			position: "Product Designer",
-			company: "Design Team",
-			quote:
-				"The creative freedom and opportunity to influence product decisions makes this the best place I've ever worked. I'm constantly learning and growing.",
-			image:
-				"https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-		},
-		{
-			name: "Marcus Johnson",
-			position: "Marketing Lead",
-			company: "Marketing Team",
-			quote:
-				"I joined three years ago and have grown tremendously. The leadership truly invests in your development and the work environment is both challenging and supportive.",
-			image:
-				"https://images.unsplash.com/photo-1531384441138-2736e62e0919?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-		}
-	];
+	{
+		name: "Gabriela Martinez",
+		position: "Dispatcher",
+		company: "Operations Team",
+		quote:
+			"Probook feels like family. Leadership encourages us to share ideas and my voice is always heard. Every day, I know my work matters—both for our team and our customers.",
+		image:
+			"/generated/image-latina-woman-dispatcher-in-a-bright-sunl.webp"
+	},
+	{
+		name: "Darius Brooks",
+		position: "Software Engineer",
+		company: "Engineering Team",
+		quote:
+			"Joining Probook gave me space to really grow. I'm challenged daily and always supported—collaboration here is real, and everyone wants to see you succeed.",
+		image:
+			"/generated/image-black-male-software-engineer-in-a-casual.webp"
+	},
+	{
+		name: "Emma Thompson",
+		position: "Customer Support Manager",
+		company: "Customer Experience",
+		quote:
+			"The positive energy at Probook is contagious. I’m empowered to make decisions, help our clients, and develop new skills alongside genuinely great people.",
+		image:
+			"/generated/image-white-female-customer-support-manager-in.webp"
+	}
+];
 
 	const processSteps = [
 		{
@@ -191,19 +191,19 @@
 <!-- Hero Section -->
 
 <SecondaryHero
-	title="Join our team of innovators"
-	subtitle="We're looking for passionate people to help us build the future of digital experiences. Discover your next opportunity with us."
+	title="Built by dispatchers, driven by impact"
+	subtitle="Help shape the future of home service—together"
+	imageSrc="/generated/image-a-diverse-team-collaborating-in-a-bright.webp"
 />
 
 <!-- Why Join Us Section -->
 <section class={SECTION_BASE_CLASSES}>
-	<SectionHeader title="Why join us?" subtitle="Build your career while making an impact" />
-
-	<div class="mt-16 grid gap-4 md:grid-cols-3">
-		{#each benefits as benefit}
-			<Card {...benefit} />
-		{/each}
-	</div>
+	<SectionHeader title="Why join us?" subtitle="Grow, learn, and make a real impact with Probook" />
+<div class="mt-16 grid gap-4 md:grid-cols-3">
+  <Card title="Software built by, and for, experts" description="Work with real dispatchers and operators. See your work in daily use at top home service companies." icon={IconBriefcase} />
+  <Card title="Contagiously fast learning" description="Work directly with leadership and users, ship code that matters, and get real feedback—weekly." icon={IconUsers} />
+  <Card title="Impact (and recognition) from day one" description="You’ll have ownership, fast responsibility, and a clear line of sight to outcomes—not just tasks." icon={IconHeart} />
+</div>
 </section>
 
 <!-- Culture Section -->

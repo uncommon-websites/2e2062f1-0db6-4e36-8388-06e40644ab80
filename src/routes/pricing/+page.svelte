@@ -15,35 +15,43 @@
 <Pricing />
 
 <Testimonials
-	testimonials={[
-		{
-			name: "Jane Smith",
-			position: "CTO",
-			company: "Tech Innovations",
-			quote:
-				"This solution transformed our workflow and increased productivity by 35% in just two months.",
-			image:
-				"https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-		},
-		{
-			name: "John Doe",
-			position: "Director of Operations",
-			company: "Global Solutions",
-			quote:
-				"The implementation was seamless and the support team was exceptional throughout the process.",
-			image:
-				"https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-		},
-		{
-			name: "Sarah Johnson",
-			position: "Product Manager",
-			company: "Future Systems",
-			quote:
-				"We've tried multiple solutions, but this is the only one that perfectly addressed all our requirements.",
-			image:
-				"https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&estimonial-3.jpg"
-		}
-	]}
+  testimonials={[
+    {
+      name: "Ryan Freeman",
+      position: "Dispatch Manager",
+      company: "TR Miller",
+      quote:
+        "After Probook, we added almost $100 to our average ticket. Our techs are happier, our board makes more sense—and we trust it.",
+      image: "/generated/image-a-professional-headshot-of-ryan-freeman-.webp"
+    },
+    {
+      name: "Krystin Hines",
+      position: "Dispatcher",
+      company: "Lion Home Service",
+      quote:
+        "Probook helped my dispatch team go from managing 2-3 techs each to handling 10 to 15 without any chaos.",
+      image: "/generated/image-a-professional-headshot-of-krystin-hines.webp"
+    },
+    {
+      name: "Chris Holleran",
+      position: "General Manager",
+      company: "Auchinachie Services",
+      quote:
+        "Revenue per call shot up after Probook. We’re capitalizing on calls instead of just filling time slots.",
+      image: "/generated/image-a-professional-headshot-of-chris-hollera.webp"
+    }
+  ]}
 />
 
-<CallToAction />
+<CallToAction
+  title="Dispatch smarter. Sell more. Stress less."
+  subtitle="Turn your dispatch board into a profit center."
+  description="Probook makes dispatching seamless—so you can send the right tech to the right call, increase ticket size, and keep your team happy. Go live in days and get unmatched support with a real person (our CEO) on site."
+  imageSrc="/generated/image-a-cheerful-home-service-dispatcher-sits-.webp"
+  callsToAction={[{
+    href: 'https://calendly.com/george-eliadis/probook-demo',
+    label: 'Book a free demo',
+    variant: 'primary',
+  }]}
+/>
+

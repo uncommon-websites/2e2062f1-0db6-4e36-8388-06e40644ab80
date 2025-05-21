@@ -64,10 +64,9 @@ export const navigation: NavItem[] = [
 		showInFooter: true,
 		children: [
 			{
-				label: "Healthcare",
-				href: "/use-cases/healthcare",
-				image:
-					"https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?q=80&w=1920&auto=format&fit=crop",
+				label: "Boost average ticket size",
+				href: "/use-cases/boost-average-ticket-size",
+				image: "/generated/image-a-service-technician-and-a-homeowner-eng.webp",
 
 				description:
 					"Innovative solutions for patient care, delivering advanced analytics to improve diagnostics, enhancing personalized treatment plans through real‑time data insights, and seamlessly integrating with existing healthcare systems to drive better outcomes and streamline clinical workflows",
@@ -75,22 +74,18 @@ export const navigation: NavItem[] = [
 				showInFooter: true
 			},
 			{
-				label: "Finance",
-				href: "/use-cases/finance",
-				image:
-					"https://images.unsplash.com/photo-1638913662180-afc4334cf422?q=80&w=3870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-				description:
-					"Streamlining operations and compliance across financial services by automating regulatory reporting, strengthening risk management, integrating advanced real‑time analytics, and ensuring robust audit trails for enhanced governance and operational efficiency",
+				label: "Cut drive time, fit more jobs per day",
+				href: "/use-cases/cut-drive-time-fit-more-jobs",
+				image: "/generated/image-a-group-of-home-service-team-members-loa.webp",
+				description: "Our AI dispatcher finds the most efficient route and tech for every job, helping your team cut down on windshield time. That means you can fit more jobs into the day—and avoid burnout.",
 				showInNav: true,
 				showInFooter: true
 			},
 			{
-				label: "Technology",
-				href: "/use-cases/technology",
-				image:
-					"https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-				description:
-					"Cutting-edge tools for tech companies, offering scalable cloud-based platforms, AI-driven development frameworks, secure collaboration environments, and streamlined deployment pipelines to accelerate innovation and deliver market-leading solutions",
+				label: "Reduce callbacks and urgent re-dispatches",
+				href: "/use-cases/reduce-callbacks-redispatches",
+				image: "/generated/image-a-dispatcher-and-a-technician-celebratin.webp",
+				description: "Smart assignments mean happier customers and less chaos. Probook reduces mistakes and callbacks so your dispatchers spend less time fighting fires.",
 				showInNav: true,
 				showInFooter: true
 			},

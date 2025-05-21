@@ -10,35 +10,42 @@
 
 	// Constants
 	const values = [
-		{
-			title: "Innovation",
-			description: "Constantly challenging the status quo to create better solutions."
-		},
-		{
-			title: "Integrity",
-			description: "Building trust through transparent actions and honest communication."
-		},
-		{
-			title: "Impact",
-			description: "Measuring our success by the positive change we create for our clients."
-		}
-	];
+  {
+    title: "We’ve been there",
+    description: "Founded by dispatchers who know the challenges first-hand."
+  },
+  {
+    title: "Hands-on at launch",
+    description: "Our CEO is by your side for every go-live—on site and in the room."
+  },
+  {
+    title: "Fast, knowledgeable help",
+    description: "Real dispatchers on support. Minutes not hours, resolutions you can count on."
+  },
+  {
+    title: "Make dispatch and techs’ lives easier",
+    description: "Building tools that actually reduce stress and boost results."
+  },
+  {
+    title: "It’s a true partnership",
+    description: "We work closely with every company for long-haul success."
+  }
+];
 </script>
 
 <SecondaryHero
-	title="Solving world hunger"
-	subtitle="one step at a time"
-	imageSrc="https://source.unsplash.com/random/?people"
+	title="Smarter dispatching. Bigger tickets."
+	subtitle="Send the right tech to every job—automatically."
+	imageSrc="/mockups/airport-screen-1747853856334.png"
 />
 
 <!-- Story Section -->
 <Story
-	paragraphs={[
-		"We started in 2018 with a simple goal: make helpful tech that people actually need. While many chase profits, we chose to do things differently.",
-		"Beyond making good products, we care about doing the right thing, being kind to our planet, and making sure everyone can use what we build. That's our compass.",
-		"From day one, we've asked ourselves: 'Does this actually help people?' This question gets us through tough calls and shapes who we are. We're playing the long game here.",
-		"We think about how our work affects real people's lives. We build tech that brings people together, keeps your information safe, and treats everyone fairly. When we stick to these basics, good things happen."
-	]}
+  paragraphs={[
+    "Probook was founded by dispatchers who knew firsthand how tough it is to run a board by gut and guesswork. We saw how quickly small mistakes could cost home service companies real money—and how stressful it was for everyone involved.",
+    "So, we built Probook: an AI dispatching platform that takes the guesswork out of call assignments, helping companies match every job to the right technician in seconds. From day one, we partnered directly with companies in HVAC, plumbing, and electrical to make sure our tools solved real problems, not just theoretical ones.",
+    "Today, Probook is helping dispatchers and owners boost sales, cut down on drive time, and serve their customers better—all with more confidence and less stress. We’re still here with hands-on support, listening to what dispatchers need and improving every step."
+  ]}
 />
 
 <!-- Our Culture Section -->
@@ -46,57 +53,38 @@
 
 <!-- StakeholderGrid Section -->
 <StakeholderGrid
-	stakeholderType="team"
-	title="Our team."
-	subtitle="Your partners in innovation."
-	stakeholders={[
-		{
-			name: "Alex Morgan",
-			position: "Founder & CEO",
-			bio: "Started the company with a vision to transform the industry through innovative solutions.",
-			image:
-				"https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80"
-		},
-		{
-			name: "Jamie Chen",
-			position: "Chief Design Officer",
-			bio: "Award-winning designer with a passion for creating intuitive and beautiful experiences.",
-			image:
-				"https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=776&q=80"
-		},
-		{
-			name: "Taylor Wright",
-			position: "Head of Engineering",
-			bio: "Technology enthusiast focused on building scalable systems that make a difference.",
-			image:
-				"https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80"
-		}
-	]}
+  stakeholderType="team"
+  title="Our team."
+  subtitle="Built for dispatchers, by dispatchers."
+  stakeholders={[
+    {
+      name: "George Eliadis",
+      position: "Founder & CEO",
+      bio: "George brings hands-on industry expertise as a dispatcher to every Probook customer. He personally supports every new launch to guarantee your board runs better than ever.",
+      image: "/generated/image-a-professional-headshot-of-a-male-founde.webp"
+    }
+  ]}
 />
 
-<StakeholderGrid
-	stakeholderType="investor"
-	title="Backed by the best."
-	subtitle="Point Nine, TSIC and others"
-	stakeholders={[
-		{
-			name: "Point Nine Capital",
-			image: "https://cdn.brandfetch.io/pointnine.com/w/400/h/400/logo?c=1id_elLz2Bd5Ej-dWo7"
-		},
-		{
-			name: "TSIC Ventures",
-			image: "https://cdn.brandfetch.io/tiny.vc/w/400/h/400/logo?c=1a2b3c4d5e"
-		},
-		{
-			name: "Sequoia Capital",
-			image: "https://cdn.brandfetch.io/sequoiacap.com/w/400/h/400/logo"
-		}
-	]}
-/>
+
+
 
 <!-- CTA Section -->
 <CallToAction
-	title="Ready to collaborate?"
-	subtitle="Let's create something amazing"
-	description="Join the companies already leveraging our expertise to transform their digital presence and achieve their business goals."
+  title="Smarter dispatching starts here"
+  subtitle="Book your Probook demo today"
+  description="See how AI-powered dispatching can increase revenue, cut stress, and help your team do more in less time. We’ll walk you through real results and show you Probook in action—hands-on, no pressure. Onboarding is fast, and you’ll get white-glove support from day one."
+  imageSrc="/generated/image-a-cheerful-dispatcher-team-gathered-in-a.webp"
+  callsToAction={[
+    {
+      href: "https://calendly.com/george-eliadis/probook-demo",
+      label: "Book a demo",
+      variant: "primary"
+    },
+    {
+      href: "mailto:hello@getprobook.com",
+      label: "Ask a question",
+      variant: "secondary"
+    }
+  ]}
 />

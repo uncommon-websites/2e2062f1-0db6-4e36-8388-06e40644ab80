@@ -33,7 +33,7 @@ A minimalist teaser for the about page.
 		<div class="relative mx-auto grid max-w-2xl place-items-center gap-16">
 			<ScrollText
 				class="text-title1 text-center"
-				text={`"We're building the future of digital experiences, crafting innovative solutions that transform how people interact with technology in their everyday lives"`}
+				text={`"As dispatchers, we couldn’t find a tool we trusted with the decisions that drive revenue—so we built Probook. We believe AI-powered dispatching can take pressure off your team, grow sales, and reshape how home service companies operate."`}
 			/>
 
 			<!-- Team Member & CTA Section -->

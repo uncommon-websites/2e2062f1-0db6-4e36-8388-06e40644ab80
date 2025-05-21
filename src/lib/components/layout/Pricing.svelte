@@ -35,116 +35,118 @@ Please update features according to the company's product offering. Do not remov
 
 	// Props
 	const {
-		title = "Simple, transparent pricing",
-		subtitle = "Choose the plan that works best for your needs",
-		tierNames = ["Starter", "Pro", "Enterprise"],
+		title = "Pick your plan",
+		subtitle = "Probook is billed per dispatcher, monthly. All plans integrate with ServiceTitan in real-time and include in-product chat support with a 2-minute median response time.",
+		tierNames = ["Copilot", "Autopilot", "Enterprise"],
 		features = [
 			{
-				name: "Projects",
+				name: "AI-powered dispatch recommendations",
 				tiers: {
-					Starter: "5",
-					Pro: "Unlimited",
-					Enterprise: "Unlimited"
-				}
-			},
-			{
-				name: "Team members",
-				tiers: {
-					Starter: "1",
-					Pro: "10",
-					Enterprise: "Unlimited"
-				}
-			},
-			{
-				name: "Storage",
-				tiers: {
-					Starter: "1GB",
-					Pro: "10GB",
-					Enterprise: "Unlimited"
-				}
-			},
-			{
-				name: "API access",
-				tiers: {
-					Starter: false,
-					Pro: true,
+					Copilot: true,
+					Autopilot: true,
 					Enterprise: true
 				}
 			},
 			{
-				name: "Custom domains",
+				name: "Fully automated dispatching and board reshuffling",
 				tiers: {
-					Starter: false,
-					Pro: true,
+					Copilot: false,
+					Autopilot: true,
 					Enterprise: true
 				}
 			},
 			{
-				name: "Analytics",
+				name: "Real-time ServiceTitan integration",
 				tiers: {
-					Starter: "Basic",
-					Pro: "Advanced",
-					Enterprise: "Advanced"
+					Copilot: true,
+					Autopilot: true,
+					Enterprise: true
 				}
 			},
 			{
-				name: "Support response time",
+				name: "Performance, sales, and speed dashboards",
 				tiers: {
-					Starter: "24 hours",
-					Pro: "4 hours",
-					Enterprise: "1 hour"
+					Copilot: true,
+					Autopilot: true,
+					Enterprise: true
+				}
+			},
+			{
+				name: "Forecasting by tech and call type",
+				tiers: {
+					Copilot: true,
+					Autopilot: true,
+					Enterprise: true
+				}
+			},
+			{
+				name: "2-day in-person onboarding",
+				tiers: {
+					Copilot: "Optional add-on",
+					Autopilot: true,
+					Enterprise: true
+				}
+			},
+			{
+				name: "Slack-based customer support",
+				tiers: {
+					Copilot: "Standard support",
+					Autopilot: "Priority support",
+					Enterprise: "SLA-bound support"
+				}
+			},
+			{
+				name: "Custom integrations and process support",
+				tiers: {
+					Copilot: false,
+					Autopilot: false,
+					Enterprise: true
 				}
 			},
 			{
 				name: "Dedicated account manager",
 				tiers: {
-					Starter: false,
-					Pro: false,
+					Copilot: false,
+					Autopilot: false,
 					Enterprise: true
-				}
-			},
-			{
-				name: "SLA",
-				tiers: {
-					Starter: false,
-					Pro: false,
-					Enterprise: "99.9%"
 				}
 			}
 		],
 		tiers = [
 			{
-				name: "Starter",
-				monthlyPrice: 9.99,
-				yearlyPrice: 7.99, // 20% savings
-				description: "Perfect for individuals and small projects",
+				name: "Copilot",
+				monthlyPrice: 399,
+				yearlyPrice: 399, // No discount
+				description: "AI-powered recommendations for dispatchers managing up to 12 techs. Includes real-time metrics and dashboards.",
 				features: [
-					"Up to 5 projects",
-					"Basic analytics",
-					"24-hour support response time",
-					"1GB storage"
+					"AI-powered dispatch recommendations",
+					"Real-time ServiceTitan sync",
+					"Visible metrics on tech speed, sales per call, area performance",
+					"One-click assignments backed by live data",
+					"Dashboards for daily ops and training insights",
+					"Standard onboarding and setup"
 				],
 				cta: {
-					label: "Get started",
-					href: "/signup?plan=starter"
+					label: "Start free trial",
+					href: "/start-free-trial"
 				}
 			},
 			{
-				name: "Pro",
-				monthlyPrice: 29.99,
-				yearlyPrice: 23.99, // 20% savings
-				description: "For growing teams and businesses",
+				name: "Autopilot",
+				monthlyPrice: 549,
+				yearlyPrice: 549, // No discount
+				description: "Fully automated dispatching for companies managing 20–25+ techs per dispatcher. Advanced dashboards and in-person onboarding included.",
 				features: [
-					"Unlimited projects",
-					"Advanced analytics",
-					"4-hour support response time",
-					"10GB storage",
-					"Custom domains",
-					"Team collaboration tools"
+					"Everything in Copilot",
+					"Fully automated dispatching in real time",
+					"Auto board reshuffling and job locks for control",
+					"Advanced reporting dashboards across performance, revenue, and geography",
+					"2-day in-person onboarding from our team and CEO",
+					"Live Slack support, median response under 2 minutes"
 				],
 				cta: {
-					label: "Get started",
-					href: "/signup?plan=pro"
+					label: "Book a demo",
+					href: "/book-demo"
 				},
 				highlight: true
 			},
@@ -152,19 +154,18 @@ Please update features according to the company's product offering. Do not remov
 				name: "Enterprise",
 				monthlyPrice: null,
 				yearlyPrice: null,
-				description: "For large organizations with specific needs",
+				description: "Custom solutions for multi-location or high-volume teams with complex needs. Includes strategy support, SLAs, and integrations.",
 				features: [
-					"Everything in Pro",
-					"Dedicated account manager",
-					"1-hour support response time",
-					"Unlimited storage",
-					"Advanced security features",
-					"Custom integrations",
-					"99.9% uptime SLA"
+					"Everything in Autopilot",
+					"Dedicated account management",
+					"Guaranteed SLA support and performance benchmarking",
+					"Custom integrations (multi-location, CRM, etc.)",
+					"Executive strategy support for dispatch-driven growth",
+					"Advanced permission systems and user roles"
 				],
 				cta: {
-					label: "Contact sales",
-					href: "/contact"
+					label: "Talk to sales",
+					href: "/book-demo"
 				}
 			}
 		]
